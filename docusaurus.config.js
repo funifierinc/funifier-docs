@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Funifier',
   tagline: 'Official API Docs',
-  url: 'https://funifier.com',
+  url: 'https://docs.funifier.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
