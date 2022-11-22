@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title} Docs`}
-      description="Description will go into a meta tag in <head />">
+      description="Resources to learn and develop gamification projects with Funifier">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
