@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en','pt-br']
   },
 
   presets: [
@@ -63,6 +63,10 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {to: '/docs/intro', label: 'Intro', position: 'left'},
           {to: '/docs/category/api', label: 'API', position: 'left'},
           {to: '/docs/category/recipes', label: 'Recipes', position: 'left'},
