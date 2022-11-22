@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'funifierinc', // Usually your GitHub org/user name.
-  projectName: 'funifier-js', // Usually your repo name.
+  projectName: 'funifier-docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -68,7 +68,7 @@ const config = {
           {to: '/docs/category/recipes', label: 'Recipes', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/funifierinc/funifier-js',
+            href: 'https://github.com/funifierinc/funifier-docs',
             label: 'GitHub',
             position: 'right',
           },

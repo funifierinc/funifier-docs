@@ -1,17 +1,12 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+marcilio:
+  name: Marcilio Bezerra
+  title: CDO / Lead Gamification Architect
+  url: https://github.com/marciliocb
+  image_url: https://github.com/marciliocb.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+ricardo:
+  name: Ricardo Lopes
+  title: CTO
+  url: https://github.com/funifierinc
+  image_url: https://github.com/funifierinc.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
