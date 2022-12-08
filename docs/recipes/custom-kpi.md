@@ -1,8 +1,8 @@
 ---
-sidebar_position: 0
+sidebar_position: 2
 ---
 
-# Dates & Timezones
+# Custom KPIs
 
 Recipes for multiple ways of implementing Leaderboards
 
