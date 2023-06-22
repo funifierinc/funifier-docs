@@ -4,44 +4,21 @@ sidebar_position: 1
 
 # Funifier 101
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+A [Funifier](https://funifier.com) é uma empresa líder na provisão de soluções de gamificação. Com a sua plataforma robusta e altamente personalizável, a Funifier busca transformar a maneira como as empresas envolvem e motivam funcionários, clientes e estudantes.
 
-Get started by **creating a new site**.
+## O que é Gamificação?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+A gamificação é a aplicação de elementos de jogo em contextos não-jogáveis com o objetivo de aumentar o engajamento e incentivar comportamentos específicos. Isso pode incluir o uso de desafios, competições, recompensas e tabelas de liderança.
 
-### What you'll need
+## Plataforma da Funifier
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+A plataforma da Funifier oferece um ambiente onde é possível criar e gerenciar campanhas de gamificação personalizadas. Além disso, ela permite rastrear e analisar a eficácia das campanhas de gamificação, com recursos para monitorar o comportamento do usuário.
 
-## Generate a new site
+### Principais características
 
-Generate a new Docusaurus site using the **classic template**.
+- **Campanhas personalizadas**: Personalize as campanhas para atender às suas necessidades e objetivos específicos.
+- **Monitoramento e análise**: Rastreie o comportamento do usuário e avalie a eficácia de suas campanhas.
+- **Diversas mecânicas de jogo**: Use uma variedade de mecânicas de jogos, incluindo desafios, competições, recompensas, insígnias e tabelas de liderança.
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Ao ajudar as organizações a motivar e envolver seus públicos, a Funifier está na vanguarda da transformação da experiência do usuário através da gamificação.
