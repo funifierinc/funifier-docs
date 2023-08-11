@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Funifier Docs',
+        title: 'Funifier',
         logo: {
           alt: 'Funifier Logo',
           src: 'img/logo.svg',
@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Funifier Docs. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Funifier.`,
       },
       prism: {
         theme: lightCodeTheme,
