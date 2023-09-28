@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Funifier 101
-
+ 
 
 A [Funifier](https://funifier.com) é uma empresa líder na provisão de soluções de gamificação. Com a sua plataforma robusta e altamente personalizável, a Funifier busca transformar a maneira como as empresas envolvem e motivam funcionários, clientes e estudantes.
 
