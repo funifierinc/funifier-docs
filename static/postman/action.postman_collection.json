@@ -1,153 +1,120 @@
 {
-	"info": {
-		"_postman_id": "43cff5a5-8b10-4fa9-932f-15770069ef9b",
-		"name": "RapidAPI",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "210185"
-	},
-	"item": [
-		{
-			"name": "action",
-			"request": {
-				"method": "GET",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Basic NjRkNjM0M2ZlM2UwOTc1ODNiYTNjZGJmOjY0ZDYzNGNlZTNlMDk3NTgzYmEzY2U2ZA==",
-						"type": "text"
-					}
-				],
-				"url": {
-					"raw": "https://service2.funifier.com/v3/database/action?strict=true",
-					"protocol": "https",
-					"host": [
-						"service2",
-						"funifier",
-						"com"
-					],
-					"path": [
-						"v3",
-						"database",
-						"action"
-					],
-					"query": [
-						{
-							"key": "strict",
-							"value": "true"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "action",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Basic NjRkNjM0M2ZlM2UwOTc1ODNiYTNjZGJmOjY0ZDYzNGNlZTNlMDk3NTgzYmEzY2U2ZA==",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"_id\": \"test\",\r\n    \"action\": \"Test\",\r\n    \"attributes\": [\r\n        {\r\n            \"name\": \"app\",\r\n            \"type\": \"String\"\r\n        }\r\n    ],\r\n    \"points\": [],\r\n    \"notifications\": [],\r\n    \"active\": true\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://service2.funifier.com/v3/database/action",
-					"protocol": "https",
-					"host": [
-						"service2",
-						"funifier",
-						"com"
-					],
-					"path": [
-						"v3",
-						"database",
-						"action"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "action/aggregate",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Basic NjRkNjM0M2ZlM2UwOTc1ODNiYTNjZGJmOjY0ZDYzNGNlZTNlMDk3NTgzYmEzY2U2ZA==",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "[{\"$match\":{ \"_id\":\"test\" }}]",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://service2.funifier.com/v3/database/action/aggregate?strict=true",
-					"protocol": "https",
-					"host": [
-						"service2",
-						"funifier",
-						"com"
-					],
-					"path": [
-						"v3",
-						"database",
-						"action",
-						"aggregate"
-					],
-					"query": [
-						{
-							"key": "strict",
-							"value": "true"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "collections",
-			"request": {
-				"method": "GET",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Basic NjRkNjM0M2ZlM2UwOTc1ODNiYTNjZGJmOjY0ZDYzNGNlZTNlMDk3NTgzYmEzY2U2ZA==",
-						"type": "text"
-					}
-				],
-				"url": {
-					"raw": "https://service2.funifier.com/v3/database/collections",
-					"protocol": "https",
-					"host": [
-						"service2",
-						"funifier",
-						"com"
-					],
-					"path": [
-						"v3",
-						"database",
-						"collections"
-					]
-				}
-			},
-			"response": []
-		}
-	]
+  "info": {
+    "_postman_id": "43cff5a5-8b10-4fa9-932f-15770069ef9b",
+    "name": "RapidAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "210185"
+  },
+  "item": [
+    {
+      "name": "action",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Basic Token",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://service2.funifier.com/v3/database/action?strict=true",
+          "protocol": "https",
+          "host": ["service2", "funifier", "com"],
+          "path": ["v3", "database", "action"],
+          "query": [
+            {
+              "key": "strict",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "action",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Basic Token",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"_id\": \"test\",\r\n    \"action\": \"Test\",\r\n    \"attributes\": [\r\n        {\r\n            \"name\": \"app\",\r\n            \"type\": \"String\"\r\n        }\r\n    ],\r\n    \"points\": [],\r\n    \"notifications\": [],\r\n    \"active\": true\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://service2.funifier.com/v3/database/action",
+          "protocol": "https",
+          "host": ["service2", "funifier", "com"],
+          "path": ["v3", "database", "action"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "action/aggregate",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Basic Token",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"$match\":{ \"_id\":\"test\" }}]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://service2.funifier.com/v3/database/action/aggregate?strict=true",
+          "protocol": "https",
+          "host": ["service2", "funifier", "com"],
+          "path": ["v3", "database", "action", "aggregate"],
+          "query": [
+            {
+              "key": "strict",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "collections",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Basic Token",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://service2.funifier.com/v3/database/collections",
+          "protocol": "https",
+          "host": ["service2", "funifier", "com"],
+          "path": ["v3", "database", "collections"]
+        }
+      },
+      "response": []
+    }
+  ]
 }
