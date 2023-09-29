@@ -1,8 +1,0 @@
-{
-  "label": "Recipes",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "Snippets and cookbook recipes for faster development"
-  }
-}
