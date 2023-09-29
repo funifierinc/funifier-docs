@@ -216,7 +216,7 @@ void trigger(event, entity, player, database){
 
     zap.put("item", item);
 
-    HttpResponse&lt;String&gt; response = Unirest.post("https://hooks.zapier.com/hooks/catch/80/b6/")
+    HttpResponse&lt;String&gt; response = Unirest.post("ZAPIER_WEBHOOK_URL")
 
     .header("Content-Type", "application/json")
 
